@@ -1,0 +1,1 @@
+db.accounts.aggregate([{ $sort: { balance: -1 } }, { $limit: 5 }]);
